@@ -1,0 +1,15 @@
+{
+  "name": "best_buy_api_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "best-buy-test": "cypress open --config-file best_buy.config.js",
+    "facebook-test": "cypress open --config-file facebook.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.2.0"
+  }
+}
